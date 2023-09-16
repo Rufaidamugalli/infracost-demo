@@ -9,3 +9,4 @@ jobs:
     uses: Rufaidamugalli/shared-workflow/.github/workflows/infracost.yaml@main
     secrets:
       infracost_api_key: ${{ secrets.INFRACOST_API_KEY }}
+      
