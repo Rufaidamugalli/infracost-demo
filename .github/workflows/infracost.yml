@@ -6,6 +6,6 @@ on:
 jobs:
   deploy-job:
     name: infracost
-    uses: Liquid-Reply/shared-workflow/.github/workflows/infracost.yaml@main
+    uses: Rufaidamugalli/shared-workflow/.github/workflows/infracost.yaml@main
     secrets:
       infracost_api_key: ${{ secrets.INFRACOST_API_KEY }}
